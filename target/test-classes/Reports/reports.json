@@ -1,0 +1,605 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3641537900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in login page",
+            "match": {
+              "location": "Steps.user_must_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332963700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must login with valid username and password",
+            "match": {
+              "location": "Steps.user_must_login_with_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193602300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User must click on login button",
+            "match": {
+              "location": "Steps.user_must_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T13:04:24.141Z",
+        "line": 9,
+        "name": "Validate with valid credentials",
+        "description": "",
+        "id": "validate-a-swaglabs-login;validate-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73837900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user reddirected to home page",
+            "match": {
+              "location": "Steps.verify_user_reddirected_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3205223200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in login page",
+            "match": {
+              "location": "Steps.user_must_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392922000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must login with valid username and password",
+            "match": {
+              "location": "Steps.user_must_login_with_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314457300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User must click on login button",
+            "match": {
+              "location": "Steps.user_must_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T13:04:28.399Z",
+        "line": 13,
+        "name": "To validate list of products",
+        "description": "",
+        "id": "validate-a-swaglabs-login;to-validate-list-of-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188792800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "check all the products list",
+            "match": {
+              "location": "Steps.check_all_the_products_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18218900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "check total products are matching with expected",
+            "match": {
+              "location": "Steps.check_total_products_are_matching_with_expected()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2303245700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in login page",
+            "match": {
+              "location": "Steps.user_must_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 357688800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must login with valid username and password",
+            "match": {
+              "location": "Steps.user_must_login_with_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263323100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User must click on login button",
+            "match": {
+              "location": "Steps.user_must_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T13:04:32.528Z",
+        "line": 19,
+        "name": "Validate the addition of products and verify Cart",
+        "description": "",
+        "id": "validate-a-swaglabs-login;validate-the-addition-of-products-and-verify-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 510383000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select product to cart",
+            "match": {
+              "location": "Steps.user_select_to_cart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85279000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user open cart page",
+            "match": {
+              "location": "Steps.user_open_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338806400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify total no of products in cart",
+            "match": {
+              "location": "Steps.verify_total_no_of_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2543649900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in login page",
+            "match": {
+              "location": "Steps.user_must_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348946300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must login with valid username and password",
+            "match": {
+              "location": "Steps.user_must_login_with_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252558500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User must click on login button",
+            "match": {
+              "location": "Steps.user_must_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T13:04:36.387Z",
+        "line": 29,
+        "name": "Validate the addition of products and verify Cart",
+        "description": "",
+        "id": "validate-a-swaglabs-login;validate-the-addition-of-products-and-verify-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 530379500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user select product to cart",
+            "match": {
+              "location": "Steps.user_select_to_cart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113223200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user open cart page",
+            "match": {
+              "location": "Steps.user_open_cart_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2480205900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be in login page",
+            "match": {
+              "location": "Steps.user_must_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361709100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must login with valid username and password",
+            "match": {
+              "location": "Steps.user_must_login_with_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227865800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User must click on login button",
+            "match": {
+              "location": "Steps.user_must_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T13:04:40.178Z",
+        "line": 53,
+        "name": "validate your information page",
+        "description": "",
+        "id": "validate-a-swaglabs-login;validate-your-information-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 600549600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user select product to cart",
+            "match": {
+              "location": "Steps.user_select_to_cart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155340600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user open cart page",
+            "match": {
+              "location": "Steps.user_open_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152985200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user checkout the cart",
+            "match": {
+              "location": "Steps.user_checkout_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432064400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user enter \"test\",\"user\",\"600001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"600001\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.user_enter(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132867100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user click on continue",
+            "match": {
+              "location": "Steps.user_click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120675400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "verify sum of price in checkout",
+            "match": {
+              "location": "Steps.verify_sum_of_price_in_checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104373000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user click on fnish",
+            "match": {
+              "location": "Steps.user_click_on_fnish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84768500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "verify for order confirmation",
+            "match": {
+              "location": "Steps.verify_for_order_confirmation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout"
+          }
+        ]
+      }
+    ],
+    "name": "Validate a Swaglabs login",
+    "description": "",
+    "id": "validate-a-swaglabs-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
